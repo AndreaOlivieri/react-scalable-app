@@ -1,0 +1,50 @@
+{
+  "topics": [
+    {
+      "name": "libraries",
+      "description": "links to useful open source libraries"
+    },
+    {
+      "name": "apps",
+      "description": "links to new and exciting apps"
+    },
+    {
+      "name": "news",
+      "description": "links to programming related news articles"
+    }
+  ],
+  "links": [
+    {
+      "description": "The very library we are working with now",
+      "url": "https://github.com/facebook/react",
+      "topicName": "libraries",
+      "id": "f1d534e2-ab70-4cf1-bad4-2f74087901a9",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "Some old videos",
+      "url": "http://tagtree.io",
+      "topicName": "libraries",
+      "id": "cef39140-db66-48f9-94b0-9fe2ede307fa",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "An app to manage your finances",
+      "url": "https://22seven.com",
+      "topicName": "apps",
+      "id": "17cc330a-7d95-459b-ac6d-33c87a377e2d",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "Go find some news yourself!",
+      "url": "https://google.com",
+      "topicName": "news",
+      "id": "7733cc78-9544-4da2-8e58-266f84d968a9",
+      "voteCount": 0,
+      "voters": []
+    }
+  ]
+}
