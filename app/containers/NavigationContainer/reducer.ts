@@ -9,7 +9,7 @@ import { ContainerState, ContainerActions } from './types';
 
 export const initialState: ContainerState = {
   topics: [],
-  error: ''
+  error: '',
 };
 
 function navigationContainerReducer(
@@ -20,11 +20,10 @@ function navigationContainerReducer(
     case ActionTypes.REQUEST_TOPICS:
       return state;
     case ActionTypes.REQUEST_TOPICS_SUCCEEDED:
-      debugger
       return {
         ...state,
         topics: action.payload,
-        error: ''
+        error: '',
       };
     case ActionTypes.REQUEST_TOPICS_FAILED:
       return {

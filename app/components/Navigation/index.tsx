@@ -4,17 +4,17 @@
  *
  */
 import React, { memo } from 'react';
-import Topic from "../../types/topic";
+import Topic from '../../types/topic';
 
 // import styled from 'styles/styled-components';
 
 interface Props {
-  topics: Topic[]
+  topics: Topic[];
 }
 
 function Navigation(props: Props) {
   const {
-    topics = []
+    topics = [],
   } = props;
 
   return (

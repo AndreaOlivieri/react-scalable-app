@@ -13,8 +13,8 @@ import { useInjectReducer } from 'utils/injectReducer';
 import makeSelectNavigationContainer from './selectors';
 import reducer from './reducer';
 import saga from './saga';
-import Navigation from "../../components/Navigation";
-import {requestTopicsAction} from "./actions";
+import Navigation from '../../components/Navigation';
+import {requestTopicsAction} from './actions';
 
 const stateSelector = createStructuredSelector({
   navigationContainer: makeSelectNavigationContainer(),
@@ -31,8 +31,8 @@ function NavigationContainer(props: Props) {
 
   const {
     navigationContainer: {
-      navigationContainer
-    }
+      navigationContainer,
+    },
   } = useSelector(stateSelector);
   const dispatch = useDispatch();
 

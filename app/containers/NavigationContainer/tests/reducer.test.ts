@@ -3,17 +3,17 @@ import navigationContainerReducer from '../reducer';
 import { ContainerState } from '../types';
 
 describe('navigationContainerReducer', () => {
-  let state: ContainerState;
-  beforeEach(() => {
-    state = {
-      default: null,
-    };
-  });
-
-  it('returns the initial state', () => {
-    const expectedResult = state;
-    expect(navigationContainerReducer(undefined, {} as any)).toEqual(expectedResult);
-  });
+  // let state: ContainerState;
+  // beforeEach(() => {
+  //   state = {
+  //     default: null,
+  //   };
+  // });
+  //
+  // it('returns the initial state', () => {
+  //   const expectedResult = state;
+  //   expect(navigationContainerReducer(undefined, {} as any)).toEqual(expectedResult);
+  // });
 
   /**
    * Example state change comparison

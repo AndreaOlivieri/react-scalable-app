@@ -12,8 +12,8 @@
 import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
-import Navigation from "../../components/Navigation";
-import NavigationContainer from "../NavigationContainer";
+import Navigation from '../../components/Navigation';
+import NavigationContainer from '../NavigationContainer';
 
 export default function HomePage() {
   return (
