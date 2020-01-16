@@ -31,7 +31,7 @@ function NavigationContainer(props: Props) {
 
   const {
     navigationContainer: {
-      topics
+      topics,
     },
   } = useSelector(stateSelector);
   const dispatch = useDispatch();
