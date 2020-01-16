@@ -14,7 +14,7 @@ interface Props {
 
 function Navigation(props: Props) {
   const {
-    topics = [],
+    topics,
   } = props;
 
   return (

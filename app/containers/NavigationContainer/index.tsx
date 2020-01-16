@@ -4,7 +4,7 @@
  *
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { createStructuredSelector, createSelector } from 'reselect';
 
@@ -31,16 +31,18 @@ function NavigationContainer(props: Props) {
 
   const {
     navigationContainer: {
-      navigationContainer,
+      topics
     },
   } = useSelector(stateSelector);
   const dispatch = useDispatch();
 
-  dispatch(requestTopicsAction());
+  useEffect(() => {
+    dispatch(requestTopicsAction());
+  }, []);
 
   return (
     <Navigation
-      topics={navigationContainer && navigationContainer.topics}
+      topics={topics}
       {...props}
     />
   );

@@ -11,6 +11,30 @@
     {
       "name": "news",
       "description": "links to programming related news articles"
+    },
+    {
+      "name": "libraries",
+      "description": "links to useful open source libraries"
+    },
+    {
+      "name": "apps",
+      "description": "links to new and exciting apps"
+    },
+    {
+      "name": "news",
+      "description": "links to programming related news articles"
+    },
+    {
+      "name": "libraries",
+      "description": "links to useful open source libraries"
+    },
+    {
+      "name": "apps",
+      "description": "links to new and exciting apps"
+    },
+    {
+      "name": "news",
+      "description": "links to programming related news articles"
     }
   ],
   "links": [
@@ -43,6 +67,70 @@
       "url": "https://google.com",
       "topicName": "news",
       "id": "7733cc78-9544-4da2-8e58-266f84d968a9",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "The very library we are working with now",
+      "url": "https://github.com/facebook/react",
+      "topicName": "libraries",
+      "id": "744ed76d-5117-4166-951d-1da97f6afe33",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "Some old videos",
+      "url": "http://tagtree.io",
+      "topicName": "libraries",
+      "id": "9c6f5206-b6f0-4ab9-b91a-3591201bbf5a",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "An app to manage your finances",
+      "url": "https://22seven.com",
+      "topicName": "apps",
+      "id": "ce7659da-ca8e-4af3-a951-5ff817704c60",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "Go find some news yourself!",
+      "url": "https://google.com",
+      "topicName": "news",
+      "id": "f6a9849d-1043-4cab-84a2-ce708a915235",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "The very library we are working with now",
+      "url": "https://github.com/facebook/react",
+      "topicName": "libraries",
+      "id": "2e8f18b2-b4af-45ce-9354-48e23b23fd77",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "Some old videos",
+      "url": "http://tagtree.io",
+      "topicName": "libraries",
+      "id": "c27a1c19-e060-4eb0-ad41-3ca8bf207ada",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "An app to manage your finances",
+      "url": "https://22seven.com",
+      "topicName": "apps",
+      "id": "50c8b8c3-10f8-4c7a-a55e-7dc923fa6b9e",
+      "voteCount": 0,
+      "voters": []
+    },
+    {
+      "description": "Go find some news yourself!",
+      "url": "https://google.com",
+      "topicName": "news",
+      "id": "cb51b38c-1317-472a-a7a8-e84113213674",
       "voteCount": 0,
       "voters": []
     }

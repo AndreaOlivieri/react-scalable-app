@@ -7,7 +7,7 @@ import { initialState } from './reducer';
  */
 
 const selectNavigationContainerDomain = (state: ApplicationRootState) => {
-  return state || initialState;
+  return state && state.navigationContainer || initialState;
 };
 
 /**

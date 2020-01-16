@@ -5,7 +5,6 @@
  */
 
 import { action } from 'typesafe-actions';
-import {} from './types';
 
 import ActionTypes from './constants';
 import Topic from '../../types/topic';
